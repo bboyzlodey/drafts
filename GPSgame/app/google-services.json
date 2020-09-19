@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "317578868976",
+    "firebase_url": "https://gps-game-275215.firebaseio.com",
+    "project_id": "gps-game-275215",
+    "storage_bucket": "gps-game-275215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317578868976:android:3b610de0463bfc2b062a35",
+        "android_client_info": {
+          "package_name": "skarlat.dev.gpsgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317578868976-0mgrtm7toe1isj3klbhuqtq2ujep0t4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6TW4F1Raq4lqGjZUrTGIeAGY-lZlhqSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317578868976-0mgrtm7toe1isj3klbhuqtq2ujep0t4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
