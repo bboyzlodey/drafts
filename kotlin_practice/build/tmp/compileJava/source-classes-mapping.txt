@@ -1,0 +1,52 @@
+CoffeeApp.java
+ CoffeeApp
+ CoffeeApp$CoffeeShop
+SomeClass2_Factory.java
+ SomeClass2_Factory
+DaggerCoffeeApp_CoffeeShop.java
+ DaggerCoffeeApp_CoffeeShop
+ DaggerCoffeeApp_CoffeeShop$1
+ DaggerCoffeeApp_CoffeeShop$Builder
+Pump.java
+ Pump
+ElectricHeater_Factory.java
+ ElectricHeater_Factory
+CoffeeLogger.java
+ CoffeeLogger
+Heater.java
+ Heater
+ElectricHeater.java
+ ElectricHeater
+CoffeeLogger_Factory.java
+ CoffeeLogger_Factory
+ CoffeeLogger_Factory$InstanceHolder
+CoffeeMaker_Factory.java
+ CoffeeMaker_Factory
+Thermosiphon.java
+ Thermosiphon
+Cat1.java
+ Cat1
+SomeClass2_MembersInjector.java
+ SomeClass2_MembersInjector
+Cat1_Factory.java
+ Cat1_Factory
+ Cat1_Factory$InstanceHolder
+PersonModule_Companion_ProvidePersonFactory.java
+ PersonModule_Companion_ProvidePersonFactory
+ PersonModule_Companion_ProvidePersonFactory$InstanceHolder
+CoffeeMaker.java
+ CoffeeMaker
+PumpModule.java
+ PumpModule
+DaggerAppComponent.java
+ DaggerAppComponent
+ DaggerAppComponent$1
+ DaggerAppComponent$Builder
+HeaterModule.java
+ HeaterModule
+Thermosiphon_Factory.java
+ Thermosiphon_Factory
+Cat_Factory.java
+ Cat_Factory
+SomeClass_Factory.java
+ SomeClass_Factory
