@@ -1,16 +1,9 @@
 import dagger.internal.DaggerGenerated
+import java.beans.PropertyChangeListener
 import javax.inject.Inject
 
 fun main(args: Array<String>) {
-    launchDecorator()
-//    launchDagger()
-}
-
-private fun launchDecorator() {
-    val textView = TextViewComponent()
-    val scrollDecorator = ScrollDecorator(textView)
-    val borderDecorator = BorderDecorator(scrollDecorator)
-    borderDecorator.draw()
+    launchPropertyChanged()
 }
 
 private fun launchDagger() {
@@ -23,14 +16,31 @@ private fun launchDagger() {
 }
 
 class SomeClass @Inject constructor(val person: Person) {
-
 }
+
 
 class SomeClass2 @Inject constructor(val someClass2: SomeClass) {
     @Inject
     lateinit var someClass: SomeClass
-
     /*init {
         DaggerAppComponent.create().inject(this)
     }*/
+
+}
+
+private fun launchDecorator() {
+    val textView = TextViewComponent()
+    val scrollDecorator = ScrollDecorator(textView)
+    val borderDecorator = BorderDecorator(scrollDecorator)
+    borderDecorator.draw()
+}
+
+private fun launchPropertyChanged() {
+    val person = inAction.Person(18, 3000)
+    person.addPropertyChangedListener(PropertyChangeListener { event ->
+        println("Property ${event.propertyName} changed from ${event.oldValue} to ${event.newValue}")
+    })
+    person.age++
+    person.age += 10
+    person.salary -= person.salary / 2
 }
